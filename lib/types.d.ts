@@ -9,3 +9,16 @@ export interface TLink {
 export interface TSocial extends TLink {
   icon: string | StaticImport;
 }
+
+export interface Tag {
+  image: StaticImport | string;
+  left: string;
+  top: string;
+}
+
+export interface TeamMember {
+  name: string;
+  role: string;
+  tags: Tag[];
+  image: StaticImport | string;
+}
