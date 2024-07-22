@@ -19,10 +19,14 @@ const config: Config = {
     extend: {
       colors: {
         "background-1": "#f8f4f2",
+        "background-2": "#1e1c1b",
         border: "#cccccc",
         fg: "#211e1d",
         subtle: "#847E7C",
         primary: "#ff7e3e",
+        "border-dark": "#999999",
+        "subtle-dark": "#777777",
+        "muted-dark": "#66605d",
       },
     },
   },

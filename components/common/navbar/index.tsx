@@ -3,14 +3,9 @@ import Image from "next/image";
 import logo from "@/assets/icons/logo.svg";
 import MobileMenu from "./MobileMenu";
 import MenuLink from "./MenuLink";
+import { TLink } from "@/lib/types";
 
-export type Menu = {
-  label: string;
-  path: string;
-  subMenus?: { label: string; path: string }[];
-};
-
-export const menus: Menu[] = [
+export const menus: TLink[] = [
   { label: "Basic Needs", path: "/" },
   { label: "K12", path: "/" },
   { label: "Higher Ed", path: "/" },

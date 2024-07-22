@@ -1,13 +1,13 @@
 "use client";
 import { useState } from "react";
-import { Menu } from ".";
 import Link from "next/link";
 import Image from "next/image";
 import chevronRight from "@/assets/icons/chevron-right.svg";
 import chevronDown from "@/assets/icons/chevron-down.svg";
+import { TLink } from "@/lib/types";
 
 type MenuLinkProps = {
-  menu: Menu;
+  menu: TLink;
   variant?: "mobile" | "desktop";
 };
 

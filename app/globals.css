@@ -17,3 +17,13 @@
     opacity: 1;
   }
 }
+
+.clip-footer-bg {
+  clip-path: polygon(0 5%, 30% 0, 100% 3%, 100% 100%, 0 100%);
+}
+
+@media (min-width: 768px) {
+  .clip-footer-bg {
+    clip-path: polygon(0 150px, 120px 0, 100% 70px, 100% 100%, 0 100%);
+  }
+}

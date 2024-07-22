@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { modernEra } from "@/lib/fonts";
 import Navbar from "@/components/common/navbar";
+import Footer from "@/components/common/Footer";
 
 export const metadata: Metadata = {
   title: "tbh",
@@ -19,6 +20,7 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
