@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.group-hover\:boing {
+  animation: boing 0.25s cubic-bezier(0.25, 0.4, 0.55, 1.6) forwards;
+}
+
+@keyframes boing {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${modernEra.className} bg-background-1 antialiased scroll-smooth`}
+        className={`${modernEra.className} scroll-smooth bg-background-1 tracking-[-0.03em] text-fg antialiased`}
       >
         <Navbar />
         {children}

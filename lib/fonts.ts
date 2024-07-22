@@ -13,6 +13,11 @@ export const modernEra = localFont({
       style: "normal",
     },
     {
+      path: "../assets/fonts/ModernEra/ModernEra-Bold.woff2",
+      weight: "700",
+      style: "normal",
+    },
+    {
       path: "../assets/fonts/ModernEra/ModernEra-ExtraBold.woff2",
       weight: "800",
       style: "normal",
