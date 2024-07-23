@@ -70,7 +70,7 @@ export default function TouchPoints() {
         </ul>
       </div>
 
-      <div className="relative w-full md:h-[90vw] lg:h-full">
+      <div className="relative hidden w-full md:block md:h-[90vw] lg:h-full">
         <Image
           src={touchponits[active].image}
           alt={touchponits[active].title}
