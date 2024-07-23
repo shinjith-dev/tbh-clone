@@ -4,7 +4,7 @@ import SlideShow from "./SlideShow";
 export default function Team() {
   return (
     <section className="bg-white pb-60 pt-40">
-      <div className="container flex max-w-screen-xl flex-col justify-between gap-20 md:flex-row">
+      <div className="container flex max-w-screen-xl flex-col justify-between gap-20 lg:flex-row">
         <div className="pt-12 md:pl-20">
           <h5 className={`${guthenBloots.className} mb-12 text-2xl`}>
             Meet our world-class care experts
@@ -26,7 +26,7 @@ export default function Team() {
           </div>
         </div>
 
-        <div className="relative h-[min(90vw,500px)] w-full shrink-0 bg-gradient-to-b from-[#ffc102] to-[#ffc102] md:h-[min(45vw,630px)] md:w-auto md:basis-[60%]">
+        <div className="relative h-[min(90vw,500px)] w-full shrink-0 bg-gradient-to-b from-[#ffc102] to-[#ffc102] lg:h-[min(45vw,630px)] lg:w-auto lg:basis-[60%]">
           <SlideShow />
         </div>
       </div>
