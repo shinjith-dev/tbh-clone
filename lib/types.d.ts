@@ -22,3 +22,11 @@ export interface TeamMember {
   tags: Tag[];
   image: StaticImport | string;
 }
+
+export interface TouchPoint {
+  title: string;
+  description: string;
+  details: string;
+  image: StaticImport | string;
+  icon: StaticImport | string;
+}

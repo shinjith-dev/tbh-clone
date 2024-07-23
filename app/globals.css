@@ -113,3 +113,26 @@
 .schools-shadow {
   box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.05);
 }
+
+.clip-what-we-do {
+  clip-path: polygon(0% 250px, 7% 145px, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.touchpoint:hover .touchpoint-icon {
+  animation: giggle 0.5s ease-out both;
+  transition: all 0.5s ease-out;
+}
+
+@keyframes giggle {
+  0% {
+    transform: translateX(4px);
+  }
+
+  50% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(1px);
+  }
+}

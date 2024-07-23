@@ -31,7 +31,7 @@ export default function TrustedSchools() {
           />
         </p>
 
-        <div className="schools-shadow grid grid-cols-2 place-items-center gap-4 rounded-[20px] bg-white px-5 py-3 md:grid-cols-5 md:p-7 lg:p-9">
+        <div className="schools-shadow relative z-10 grid grid-cols-2 place-items-center gap-4 rounded-[20px] bg-white px-5 py-3 md:grid-cols-5 md:p-7 lg:p-9">
           <GridCell schools={[s1, s2]} order={1} />
           <GridCell schools={[s3, s4]} order={2} />
           <GridCell schools={[s5, s6]} order={3} />
