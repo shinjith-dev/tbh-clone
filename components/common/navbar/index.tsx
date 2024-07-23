@@ -39,10 +39,10 @@ export default function Navbar() {
       </ul>
 
       <div className="hidden space-x-4 font-extrabold md:flex">
-        <button className="rounded-lg bg-white px-8 py-3 xl:px-12 xl:py-4">
+        <button className="scale-100 rounded-lg bg-white px-8 py-3 transition-all hover:scale-105 xl:px-12 xl:py-4">
           Login
         </button>
-        <button className="rounded-lg bg-primary px-8 py-3 xl:px-10 xl:py-4">
+        <button className="scale-100 rounded-lg bg-primary px-8 py-3 transition-all hover:scale-105 xl:px-10 xl:py-4">
           Join now
         </button>
       </div>
