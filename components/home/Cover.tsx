@@ -1,9 +1,11 @@
 import { guthenBloots, recoletta } from "@/lib/fonts";
+import Image from "next/image";
+import cover from "@/assets/images/cover.svg";
 
 export default function Cover() {
   return (
     <section className="container w-full max-w-screen-xl pb-6 md:pt-5">
-      <div className="mx-auto flex flex-col items-stretch justify-start md:w-11/12 md:flex-row">
+      <div className="mx-auto flex flex-col items-stretch justify-start lg:w-11/12 lg:flex-row">
         <div className="shrink-0 basis-[50%] text-center md:text-start xl:pl-6">
           <h2
             className={`${recoletta.className} mb-8 text-4xl text-[40px] font-extrabold leading-[0.8] md:mb-10 md:text-5xl lg:text-7xl`}
@@ -56,7 +58,9 @@ export default function Cover() {
           </div>
         </div>
 
-        <div className="h-[80vw] grow md:h-full" />
+        <div className="relative h-[90vw] w-full grow self-end md:-ml-36 md:h-[600px]">
+          <Image src={cover} alt="Cover image" fill className="object-cover" />
+        </div>
       </div>
     </section>
   );

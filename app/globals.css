@@ -136,3 +136,7 @@
     transform: translateX(1px);
   }
 }
+
+.clip-who-we-help {
+  clip-path: polygon(0 0, 100% 8%, 100% 100%, 0% 100%);
+}

@@ -22,7 +22,7 @@ export default function TouchPoints() {
           {touchponits.map((t, index) => (
             <li
               key={t.title}
-              className={`touchpoint cursor-pointer border-primary md:pl-14 ${index === active && "border-l-2"}`}
+              className={`touchpoint cursor-pointer border-primary md:pl-14 ${index === active && "md:border-l-2"}`}
               onClick={() => setActive(index)}
             >
               <div className="mb-3 border-l border-border pl-6 md:mb-0 md:border-none md:pl-0">

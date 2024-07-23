@@ -30,3 +30,10 @@ export interface TouchPoint {
   image: StaticImport | string;
   icon: StaticImport | string;
 }
+
+export interface AudienceGroup {
+  title: string;
+  description: string;
+  link: string;
+  image: StaticImport | string;
+}

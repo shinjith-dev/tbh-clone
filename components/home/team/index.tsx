@@ -6,7 +6,7 @@ export default function Team() {
     <section className="bg-white pb-60 pt-40">
       <div className="container flex max-w-screen-xl flex-col justify-between gap-20 lg:flex-row">
         <div className="pt-12 md:pl-20">
-          <h5 className={`${guthenBloots.className} mb-12 text-2xl`}>
+          <h5 className={`${guthenBloots.className} mb-8 text-2xl md:mb-12`}>
             Meet our world-class care experts
           </h5>
 
